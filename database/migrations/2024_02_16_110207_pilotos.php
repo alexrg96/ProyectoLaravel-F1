@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('libros',function(Blueprint $table){
+        Schema::create('pilotos',function(Blueprint $table){
             $table->engine="InnoDB";
             $table->id();
             $table->bigInteger('escuderia_id')->unsigned();
